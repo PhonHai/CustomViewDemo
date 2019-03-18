@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.ownchan.miclock.customview.CircleView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:circle_color="@color/colorAccent"
+        custom:circle_text="懿"
+        custom:circle_textSize="60dp"
+        custom:circle_textColor="@color/colorPrimary"
+        android:padding="50dp"
+        android:background="@color/colorPrimary"
+        />
+</RelativeLayout>

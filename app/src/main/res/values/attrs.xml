@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ClockView">
+        <attr name="clock_backgroundColor" format="color" />
+        <attr name="clock_lightColor" format="color" />
+        <attr name="clock_darkColor" format="color" />
+        <attr name="clock_textSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleView">
+        <attr name="circle_color" format="color" />
+        <attr name="circle_text" format="string"></attr>
+        <attr name="circle_textSize" format="dimension"></attr>
+        <attr name="circle_textColor" format="color"></attr>
+    </declare-styleable>
+
+    <!--圆弧进度条-->
+    <declare-styleable name="TasksCompletedView">
+        <attr name="radius" format="dimension"/>
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="circleColor" format="color"/>
+        <attr name="ringColor" format="color"/>
+        <attr name="ringBgColor" format="color"/>
+    </declare-styleable>
+
+</resources>
