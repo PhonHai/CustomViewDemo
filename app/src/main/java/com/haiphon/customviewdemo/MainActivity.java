@@ -7,6 +7,7 @@ import android.view.View;
 import com.haiphon.customviewdemo.plugins.CircleProgressActivity;
 import com.haiphon.customviewdemo.plugins.CircleViewActivity;
 import com.haiphon.customviewdemo.plugins.ClockViewActivity;
+import com.haiphon.customviewdemo.plugins.ZRationImageViewActivity;
 
 public class MainActivity extends AppCompatActivity{
 
@@ -26,5 +27,9 @@ public class MainActivity extends AppCompatActivity{
 
     public void onClickProgressView(View view) {
         startActivity(new Intent(this, CircleProgressActivity.class));
+    }
+
+    public void onClickZRationImageView(View view) {
+        startActivity(new Intent(this, ZRationImageViewActivity.class));
     }
 }

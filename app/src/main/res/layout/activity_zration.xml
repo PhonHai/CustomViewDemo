@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:custom="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/activity_main"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+
+
+              <com.haiphon.customviewdemo.customview.ZRationImageView
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:layout_height="wrap_content"
+                      custom:ration="0.7"
+                      android:src="@mipmap/small_share_bg01" />
+
+
+
+              <com.haiphon.customviewdemo.customview.ZRationImageView
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:layout_height="wrap_content"
+                      custom:ration="1.4"
+                      android:src="@mipmap/small_share_bg01" />
+ </LinearLayout>
+

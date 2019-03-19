@@ -20,6 +20,7 @@
         <activity android:name=".plugins.ClockViewActivity"/>
         <activity android:name=".plugins.CircleViewActivity"/>
         <activity android:name=".plugins.CircleProgressActivity"/>
+        <activity android:name=".plugins.ZRationImageViewActivity"/>
     </application>
 
 </manifest>

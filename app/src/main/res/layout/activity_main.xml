@@ -30,4 +30,12 @@
         android:onClick="onClickProgressView"
         />
 
+    <Button
+            android:id="@+id/zration_imageview"
+            android:text="宽度确定,高度比例缩放的ImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClickZRationImageView"
+    />
+
 </LinearLayout>
