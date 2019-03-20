@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:orientation="vertical">
-        <com.ownchan.miclock.customview.CircleProgressView
+        <com.haiphon.customviewdemo.customview.CircleProgressView
             android:id="@+id/tasks_view"
             android:layout_width="300dp"
             android:layout_height="300dp"

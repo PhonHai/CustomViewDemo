@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     >
 
-    <com.ownchan.miclock.customview.CircleView
+    <com.haiphon.customviewdemo.customview.CircleView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         custom:circle_color="@color/colorAccent"

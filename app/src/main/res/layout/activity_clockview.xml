@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/bg">
 
- <com.ownchan.miclock.customview.ClockView
+ <com.haiphon.customviewdemo.customview.ClockView
      android:layout_width="270dip"
      android:layout_height="270dp"
      custom:clock_backgroundColor="@color/bg"
