@@ -13,7 +13,7 @@ import com.haiphon.customviewdemo.R;
  * github:https://github.com/zxyaust  CSDN:http://blog.csdn.net/ZRationImageView Whatever happens tomorrow,we've had today.
  */
 
-public class ZRationImageView extends ImageView {
+public class ZRationImageView extends android.support.v7.widget.AppCompatImageView {
 
     private float ration;
 
@@ -29,6 +29,7 @@ public class ZRationImageView extends ImageView {
         super(context, attrs, defStyleAttr);
         TypedArray array = context.obtainStyledAttributes(attrs, R.styleable.ZRationImageView);
         ration = array.getFloat(R.styleable.ZRationImageView_ration, 0f);
+
         array.recycle();
         setScaleType(ScaleType.FIT_XY);
     }
@@ -42,5 +43,15 @@ public class ZRationImageView extends ImageView {
         layoutParams.width = width;
         layoutParams.height = height;
         setLayoutParams(layoutParams);
+    }
+
+
+    @Override
+    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+    }
+
+    public void setRation(float ration) {
+        this.ration = ration;
     }
 }
