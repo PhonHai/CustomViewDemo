@@ -16,10 +16,10 @@ class ZRationImageViewActivity : AppCompatActivity() {
         val list = mutableListOf<String>("1.4","2.0","1.7","0.8","0.7")
         ig_first.setOnClickListener(object : View.OnClickListener {
             override fun onClick(v: View?) {
-            //这里写实现的功能
+            // 随机取一个数值刷新图片
                 list.shuffled().take(1).forEach{
                     ig_first.setRation(it.toString().toFloat())
-                    ig_first.postInvalidate()
+                    ig_first.requestLayout()
                 }
 
             }

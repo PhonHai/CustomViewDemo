@@ -14,9 +14,6 @@
                       android:id="@+id/ig_first"
                       custom:ration="0.7"
                       android:src="@mipmap/small_share_bg01" />
-
-
-
               <com.haiphon.customviewdemo.customview.ZRationImageView
                       android:layout_width="0dp"
                       android:layout_weight="1"

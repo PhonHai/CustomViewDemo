@@ -21,6 +21,7 @@
         <activity android:name=".plugins.CircleViewActivity"/>
         <activity android:name=".plugins.CircleProgressActivity"/>
         <activity android:name=".plugins.ZRationImageViewActivity"/>
+        <activity android:name=".plugins.MultiGroupHistogramViewActivity"/>
     </application>
 
 </manifest>

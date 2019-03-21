@@ -5,8 +5,6 @@ import android.util.AttributeSet;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import com.haiphon.customviewdemo.R;
-
-
 /**
  * Created by Miller Zhang  on 2017/2/22.
  * desc:
@@ -29,7 +27,6 @@ public class ZRationImageView extends android.support.v7.widget.AppCompatImageVi
         super(context, attrs, defStyleAttr);
         TypedArray array = context.obtainStyledAttributes(attrs, R.styleable.ZRationImageView);
         ration = array.getFloat(R.styleable.ZRationImageView_ration, 0f);
-
         array.recycle();
         setScaleType(ScaleType.FIT_XY);
     }

@@ -8,4 +8,14 @@
     <color name="white">#FFFFFF</color>
     <color name="gray">#f5f3f3</color>
     <color name="colorRed">#d50f09</color>
+
+    <!--柱形图-->
+    <color name="color_orange">#ffa800</color>
+    <color name="color_supper_normal">#E64fc6be</color>
+    <color name="color_supper_tip_normal">#804fc6be</color>
+    <color name="color_supper_tip_selected">#99ffffff</color>
+    <color name="bg_supper_normal">#1a4fc6be</color>
+    <color name="bg_supper_selected">#4fc6be</color>
+
+
 </resources>

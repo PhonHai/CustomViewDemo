@@ -4,10 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import com.haiphon.customviewdemo.plugins.CircleProgressActivity;
-import com.haiphon.customviewdemo.plugins.CircleViewActivity;
-import com.haiphon.customviewdemo.plugins.ClockViewActivity;
-import com.haiphon.customviewdemo.plugins.ZRationImageViewActivity;
+import com.haiphon.customviewdemo.plugins.*;
 
 public class MainActivity extends AppCompatActivity{
 
@@ -31,5 +28,9 @@ public class MainActivity extends AppCompatActivity{
 
     public void onClickZRationImageView(View view) {
         startActivity(new Intent(this, ZRationImageViewActivity.class));
+    }
+
+    public void onClickHistogramView(View view) {
+        startActivity(new Intent(this, MultiGroupHistogramViewActivity.class));
     }
 }
